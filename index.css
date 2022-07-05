@@ -1,0 +1,145 @@
+:root {
+  --dark-blue: #00053e;
+  --body-color: #cbcbcb;
+}
+
+/* ----------------------- RESET ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ion-icon {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.container {
+  background-color: #eeede8;
+  padding: 2rem;
+  border-radius: 2rem;
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+/* ----------------------- PROFILE -----------------------  */
+.profile-photo__name .profile-photo {
+  width: 10rem;
+  border-radius: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.profile-photo__name .profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+/* ----------------------- FOLLOW AND DESCRIPTION -----------------------  */
+.profile-follow__description .profile-follow {
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+.profile-follow__description .profile-description {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: var(--dark-blue);
+}
+
+/* ----------------- ORGANIZATION INFO AND BAR PROGRESS -----------------  */
+.organization-info__progress .organization-info {
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+}
+
+.organization-info__progress .organization-alert {
+  font-size: 1.6rem;
+}
+
+.organization-info__progress .organization-progress {
+  background-color: var(--body-color);
+  height: 0.8rem;
+  width: 30rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.organization-info__progress .organization-progress::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 100%;
+  width: 80%;
+  background: rgb(255, 132, 0);
+  border-radius: 1rem 0 0 1rem;
+}
+
+/* ----------------- FOLLOWERS AMOUNT AND FOLLOW BUTTON -----------------  */
+.follow-followers__follow-button .follow-number {
+  font-size: 1.6rem;
+  color: var(--dark-blue);
+}
+
+.follow-followers__follow-button .follow-button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: var(--dark-blue);
+  padding: 1.1rem 3.2rem;
+  border-radius: 0.6rem;
+}
+
+/* ----------------- BUTTONS LIST -----------------  */
+.buttons-list {
+  display: flex;
+}
+
+.buttons-list .item .button {
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  font-size: 2.3rem;
+  color: var(--dark-blue);
+  border-radius: 1.2rem;
+  border: 2px solid var(--body-color);
+}
+
+.buttons-list .item:not(:last-child) .button {
+  margin-right: 1.4rem;
+}
+
+.buttons-list .item .button:hover {
+  background-color: var(--body-color);
+}
