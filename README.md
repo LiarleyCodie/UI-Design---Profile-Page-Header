@@ -1,13 +1,21 @@
 # O Layout foi feito respeitando Mobile First
 
-Referência: [Ui Design Daily](https://uidesigndaily.com/posts/figma-profile-page-header-card-day-1580)
+:dancer: Referência: [Ui Design Daily](https://uidesigndaily.com/posts/figma-profile-page-header-card-day-1580)
 
-O Layout foi feito usando puramente HTML e CSS, usando o conceito de Mobile First inicialmente.
+:book: O Layout foi feito usando puramente HTML e CSS, usando o conceito de Mobile First inicialmente.
 
-O layout está totalmente responsivo.
+:straight_ruler: O layout está totalmente responsivo.
+
+:iphone: Em Celulares:
 
 ![Dimensão para Celulares](https://imgur.com/l2zlEAL.png)
 
+
+:sparkler: Em Tablets:
+
 ![Dimensão para Tablets](https://imgur.com/6kd2t2N.png)
+
+
+:computer: Em Computadores:
 
 ![Dimensão para Desktops](https://imgur.com/7FdGquV.png)
